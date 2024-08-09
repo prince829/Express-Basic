@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "rootDir": "./",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    // "exclude": ["node_modules", "**/*.spec.ts"],
+    "allowSyntheticDefaultImports":true,
+    "forceConsistentCasingInFileNames": true,
+    "allowUnusedLabels": false,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": true,
+    "lib": [
+      "ESNext"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./app/interface/type.d.ts",
+      "./app/interface/global.d.ts"
+    ]
+  },
+}
